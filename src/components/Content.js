@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { makeStyles } from "@material-ui/core/styles";
 import { Button } from "@material-ui/core/";
@@ -138,7 +138,10 @@ export default function Content() {
       console.error(error);
     }
   }
-  getUser();
+  useEffect(() => {
+    getUser();
+  }, [params, html]);
+  // getUser();
   return (
     <div>
       <Typography
