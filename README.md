@@ -14,7 +14,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### A Random Text Generator Sneek Peek
 
-![GitHub Logo](/public/image.png)
+![GitHub Logo](/public/image.jpg)
 
 
 **Here you Go !!**
